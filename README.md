@@ -10,13 +10,14 @@ A operação de inversão de string deve ser **obrigatoriamente** executada no b
 
 * Utilize Java 8 para o backend
 * Utilize a tecnologia de sua preferência para o frontend
+* Monte o design da aplicação de acordo com sua preferência
 * Utilize Git para versionamento de seu código
 
 ## Extras
 
 Os seguintes itens são opcionais e valerão pontos extras no desafio:
 
-* Apresente na tela a lista de strings previamente enviadas pelo usuário
+* Apresente na tela o histórico de todas as strings previamente enviadas pelo usuário
 * Utilize uma API REST de comunicação entre o backend e o frontend da aplicação
 * Utilize testes unitários
 * Utilize React, Angular ou Vue no frontend da aplicação
@@ -24,7 +25,7 @@ Os seguintes itens são opcionais e valerão pontos extras no desafio:
 ## Instruções de envio
 
 * Inclua no arquivo `README.md` as instruções para execução e uma breve descrição das tecnologias utilizadas, junto com seu nome completo.
-* Estamos utilizando o [Github Classroom](https://classroom.github.com) para gerenciamento das respostas ao desafio. Submeta os commits de sua solução através do assignment: https://classroom.github.com/a/nyQPX2lw
+* Estamos utilizando o [Github Classroom](https://classroom.github.com) para gerenciamento das respostas ao desafio. Submeta os commits de sua solução através do assignment: https://classroom.github.com/a/nyQPX2lw.o
 
     Ao aceitar o assignment, será criado um repositório com seu nome de usuário do Github (Ex.: `desafio-de-desenvolvimento-CarlosBonetti`). Submeta sua solução neste repositório, clonando-o e fazendo push de seus commits. O repositório é visível somente por você e pela equipe Bridge.
 
