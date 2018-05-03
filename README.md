@@ -2,7 +2,7 @@
 
 Desenvolva uma aplicação web que permita ao usuário inserir um texto qualquer e que o sistema retorne o inverso dessa string.
 
-Exemplo: ao inserir o texto "`bridge`", o sistema retorna na tela a resposta "`egdirb`".
+Exemplo: ao inserir o texto `"bridge"`, o sistema retorna na tela a resposta `"egdirb"`.
 
 A operação de inversão de string deve ser **obrigatoriamente** executada no backend da aplicação.
 
