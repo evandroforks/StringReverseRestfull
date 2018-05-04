@@ -25,8 +25,4 @@ Os seguintes itens são opcionais e valerão pontos extras no desafio:
 ## Instruções de envio
 
 * Inclua no arquivo `README.md` as instruções para execução e uma breve descrição das tecnologias utilizadas, junto com seu nome completo.
-* Estamos utilizando o [Github Classroom](https://classroom.github.com) para gerenciamento das respostas ao desafio. Submeta os commits de sua solução através do assignment: https://classroom.github.com/a/nyQPX2lw.o
-
-    Ao aceitar o assignment, será criado um repositório com seu nome de usuário do Github (Ex.: `desafio-de-desenvolvimento-CarlosBonetti`). Submeta sua solução neste repositório, clonando-o e fazendo push de seus commits. O repositório é visível somente por você e pela equipe Bridge.
-
-    Serão aceitos somentes commits feitos até o dia **13/05 às 23h59**.
+* Serão aceitos somentes commits feitos até o dia **13/05 às 23h59**.
