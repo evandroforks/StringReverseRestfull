@@ -9,6 +9,10 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
+/**
+ * Java servlet quick start guide for beginner (Tomcat + XML configuration)
+ * http://www.codejava.net/java-ee/servlet/java-servlet-quick-start-tomcat-xml-config
+ */
 @WebServlet("/QuickServlet")
 public class QuickServlet extends HttpServlet {
 
@@ -36,6 +40,7 @@ public class QuickServlet extends HttpServlet {
      */
     public void doPost(HttpServletRequest request, HttpServletResponse response)
             throws IOException {
+
         String paramWidth = request.getParameter("width");
         int width = Integer.parseInt(paramWidth);
 

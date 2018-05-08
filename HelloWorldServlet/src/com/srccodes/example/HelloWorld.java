@@ -11,11 +11,12 @@ import javax.servlet.http.HttpServletResponse;
 
 /**
  * Servlet implementation class HelloWorld
+ * http://www.srccodes.com/p/article/3/Tomcat-Hello-World-Servlet-using-Eclipse-IDE
  */
 @WebServlet("/HelloWorld")
 public class HelloWorld extends HttpServlet {
 	private static final long serialVersionUID = 1L;
-       
+
     /**
      * @see HttpServlet#HttpServlet()
      */
@@ -28,6 +29,7 @@ public class HelloWorld extends HttpServlet {
 	 * @see HttpServlet#doGet(HttpServletRequest request, HttpServletResponse response)
 	 */
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+
 		response.setContentType("text/html");
 		PrintWriter printWriter  = response.getWriter();
 		printWriter.println("<h1>Hello World!</h1>");
