@@ -3,6 +3,12 @@
 	[
 		{
 			"path": "."
+		},
+		{
+			"path": "C:\\Bridge\\apache-tomcat-9.0.8"
+		},
+		{
+			"path": "C:\\Users\\Professional\\eclipse-workspace\\Servers\\Tomcat v9.0 Server at localhost-config"
 		}
 	]
 }
