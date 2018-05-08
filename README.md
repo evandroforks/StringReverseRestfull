@@ -86,6 +86,11 @@ ___
 1. https://stackoverflow.com/questions/3805262/what-is-a-servlets-display-name-for
 1. https://www.pegaxchange.com/2016/09/02/java-eclipse-tomcat/
 1. https://stackoverflow.com/questions/14854760/not-getting-automatically-web-xml-file-while-creating-servlet-in-eclipse-juno-4
+1. https://en.wikipedia.org/wiki/Representational_state_transfer
+1. https://stackoverflow.com/questions/14734962/front-end-frameworks-for-restful-backend
+1. https://medium.com/unicorn-supplies/angular-vs-react-vs-vue-a-2017-comparison-c5c52d620176
+1. https://tomcat.apache.org/tomcat-9.0-doc/default-servlet.html
+
 
 
 ### Old instructions
