@@ -65,15 +65,7 @@ ___
     ```
 
 
-
-### Running the application
-
-
-1.
-
-
-
-## References
+### Installation references
 
 1. http://www.srccodes.com/p/article/3/Tomcat-Hello-World-Servlet-using-Eclipse-IDE
 1. https://stackoverflow.com/questions/16517659/tomcat-7-overrides-the-tomcat-users-xml-when-using-eclipse
@@ -86,11 +78,41 @@ ___
 1. https://stackoverflow.com/questions/3805262/what-is-a-servlets-display-name-for
 1. https://www.pegaxchange.com/2016/09/02/java-eclipse-tomcat/
 1. https://stackoverflow.com/questions/14854760/not-getting-automatically-web-xml-file-while-creating-servlet-in-eclipse-juno-4
+1. https://tomcat.apache.org/tomcat-9.0-doc/default-servlet.html
+
+
+### Running the application
+
+1. After completing the **Setup** and **Installation** process,
+   go to the Eclipse menu `File -> Import...`
+1. Then, type `Projects from Folder or Archive` on the `Select an import wizard` and hit next
+1. On the `Import source` field type the address to this cloned repository project `StringReverseServlet`,
+   for example: `C:\Bridge\desafio-de-desenvolvimento-evandrocoan\StringReverseServlet`
+1. And hit `Finish`
+1. Now on Eclipse Project Explorer tab/view,
+   right click on the imported project `StringReverseServlet` and select `Run As -> Run on Server`
+1. Then, select the just created server on the *Tomcat setup on Eclipse* section and hit `Finish`
+
+Now,
+you can access the **StringReverse** application by going on your Web Browser and typing the address:
+```
+http://localhost:8080/StringReverseServlet/
+```
+
+
+### Programming references
+
+1. https://stackoverflow.com/questions/2349633/doget-and-dopost-in-servlets
 1. https://en.wikipedia.org/wiki/Representational_state_transfer
 1. https://stackoverflow.com/questions/14734962/front-end-frameworks-for-restful-backend
 1. https://medium.com/unicorn-supplies/angular-vs-react-vs-vue-a-2017-comparison-c5c52d620176
-1. https://tomcat.apache.org/tomcat-9.0-doc/default-servlet.html
-
+1. https://www.diffen.com/difference/GET-vs-POST-HTTP-Requests
+1. https://stackoverflow.com/questions/7569335/reverse-a-string-in-java
+1. https://stackoverflow.com/questions/13702713/how-to-check-presence-of-optional-attribute-inside-a-composite-component
+1. https://stackoverflow.com/questions/12478640/is-not-allowed-in-template-text
+1. https://stackoverflow.com/questions/4787730/jsf-houtputtext-how-to-show-a-dash-when-the-value-is-empty-string
+1. https://stackoverflow.com/questions/4870462/conditionally-displaying-jsf-components
+1. https://stackoverflow.com/questions/33474926/how-not-to-set-an-attribute-of-a-component-inside-a-composite-component-if-it-is
 
 
 ### Old instructions
@@ -114,7 +136,7 @@ Eclipse was taking too long to download and install Payara. Therefore, now on, N
 
 1. Install the latest version of Netbeans `All Bundle` from https://netbeans.org/downloads/
 1. **Fail,
-   falling back to standard Tomcat 9** Could not be found out-of-the-box plugin support for Payara 5 on Eclipse,
+   falling back to standard Tomcat 9** Could not be found an out-of-the-box plugin support for Payara 5 on Eclipse,
    neither Netbeans.
 
 
