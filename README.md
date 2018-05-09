@@ -39,19 +39,25 @@ ___
 1. Unpack it to `C:\Bridge\apache-tomcat-9.0.8`
 1. Download the latest version of [Eclipse IDE for Java EE Developers](http://www.eclipse.org/downloads/eclipse-packages/)
 1. Unpack it to `C:\Bridge\eclipse`
+1. Download the JDK 8 from http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html
+1. Unpack it to `C:\Bridge\Java8JDK`
 
 
 ### Tomcat setup on Eclipse
 
 1. Open Eclipse and select the `Java EE` Perspective
 1. Select the tab/view `Servers` and hit `Create a new server`
-   1. Under the server's list, select Apache -> Tomcat 9
-   1. Hit next and select the directory `C:\Bridge\apache-tomcat-9.0.8` as the Tomcat directory and hit next until finish.
+   1. Under the server's list, select Apache -> Tomcat 9, and *hit next*
+   1. Select the directory `C:\Bridge\apache-tomcat-9.0.8` as the Tomcat directory
+   1. Select the directory `C:\Bridge\Java8JDK` as the Java Virtual Machine required
+   1. Hit next until finish
    1. Also on the Servers' tab/view, right click on the created server and select `Properties`
    1. Now, select the button `Switch Location` and then `Apply and Close`
 1. Also on the Server's tab/view, double click on the recent created server.
    1. On the opened page, select `Use Tomcat installation (takes control of Tomcat installation)` under `Server Locations`
    1. Press `Ctrl+S` to save the changes and close the page
+
+Opcional steps for admin access on the Tomcat 9 Servlet Container:
 1. On the Eclipse Project Explorer tab/view, select the `Tomcat 9.0 Server at localhost-config`
    1. Select and open the file `tomcat-users.xml` as plain text and add the following contents
       ```
@@ -113,6 +119,7 @@ http://localhost:8080/StringReverseServlet/
 1. https://stackoverflow.com/questions/4787730/jsf-houtputtext-how-to-show-a-dash-when-the-value-is-empty-string
 1. https://stackoverflow.com/questions/4870462/conditionally-displaying-jsf-components
 1. https://stackoverflow.com/questions/33474926/how-not-to-set-an-attribute-of-a-component-inside-a-composite-component-if-it-is
+1. https://www.ntu.edu.sg/home/ehchua/programming/java/JSPByExample.html
 
 
 ### Old instructions
