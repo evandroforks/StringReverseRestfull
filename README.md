@@ -29,7 +29,6 @@ Os seguintes itens são opcionais e valerão pontos extras no desafio:
 
 
 ___
-
 ## Instructions
 
 
@@ -53,7 +52,7 @@ ___
    1. Hit next until finish
    1. Also on the Servers' tab/view, right click on the created server and select `Properties`
    1. Now, select the button `Switch Location` and then `Apply and Close`
-1. Also on the Server's tab/view, double click on the recent created server.
+1. Also, on the Server's tab/view, double click on the recent created server.
    1. On the opened page, select `Use Tomcat installation (takes control of Tomcat installation)` under `Server Locations`
    1. Press `Ctrl+S` to save the changes and close the page
 
@@ -71,7 +70,9 @@ Opcional steps for admin access on the Tomcat 9 Servlet Container:
     ```
 
 
-### Installation references
+#### Installation references
+<details>
+<p>
 
 1. http://www.srccodes.com/p/article/3/Tomcat-Hello-World-Servlet-using-Eclipse-IDE
 1. https://stackoverflow.com/questions/16517659/tomcat-7-overrides-the-tomcat-users-xml-when-using-eclipse
@@ -85,6 +86,8 @@ Opcional steps for admin access on the Tomcat 9 Servlet Container:
 1. https://www.pegaxchange.com/2016/09/02/java-eclipse-tomcat/
 1. https://stackoverflow.com/questions/14854760/not-getting-automatically-web-xml-file-while-creating-servlet-in-eclipse-juno-4
 1. https://tomcat.apache.org/tomcat-9.0-doc/default-servlet.html
+</p>
+</details><br>
 
 
 ### Running the application
@@ -106,7 +109,9 @@ http://localhost:8080/StringReverseServlet/
 ```
 
 
-### Programming references
+#### Programming references
+<details>
+<p>
 
 1. https://stackoverflow.com/questions/2349633/doget-and-dopost-in-servlets
 1. https://en.wikipedia.org/wiki/Representational_state_transfer
@@ -120,8 +125,11 @@ http://localhost:8080/StringReverseServlet/
 1. https://stackoverflow.com/questions/4870462/conditionally-displaying-jsf-components
 1. https://stackoverflow.com/questions/33474926/how-not-to-set-an-attribute-of-a-component-inside-a-composite-component-if-it-is
 1. https://www.ntu.edu.sg/home/ehchua/programming/java/JSPByExample.html
+</p>
+</details><br>
 
 
+___
 ### Old instructions
 
 <details>
@@ -147,7 +155,10 @@ Eclipse was taking too long to download and install Payara. Therefore, now on, N
    neither Netbeans.
 
 
-### Old References
+#### Old References
+
+<details>
+<p>
 
 1. https://en.wikipedia.org/wiki/Web_container
 1. https://en.wikipedia.org/wiki/List_of_application_servers
@@ -155,6 +166,9 @@ Eclipse was taking too long to download and install Payara. Therefore, now on, N
 1. https://github.com/payara/Payara
 1. https://plumbr.io/blog/java/most-popular-java-application-servers-2017-edition
 1. https://blog.payara.fish/adding-payara-server-to-netbeans
+</p>
+</details><br>
+
 </p>
 </details><br>
 
