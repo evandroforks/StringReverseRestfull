@@ -29,12 +29,23 @@ Os seguintes itens são opcionais e valerão pontos extras no desafio:
 
 
 ___
-## Instructions
+## Instructions by Evandro Coan
+
+The used tools were Java 8 as backend runner for the Servlet's.
+And,
+Java Server Faces (.jsf) pages for generating the frontend HTMl pages based on the processed input from the Java 8 backend application.
+
+The Servlet Container used was Tomcat 9.
+Initially was attempted to use Payara 5,
+however could not be found an out-of-the-box integration with Eclipse or Netbeans IDE's.
+Therefore,
+given the limited time to implement and deploy the application,
+was chosen to stick up with the well know and integrated Apache Tomcat Servlet Container.
 
 
 ### Downloads
 
-1. Download the Tomcat 9 Servler Container from https://tomcat.apache.org/download-90.cgi
+1. Download the Tomcat 9 Servlet Container from https://tomcat.apache.org/download-90.cgi
 1. Unpack it to `C:\Bridge\apache-tomcat-9.0.8`
 1. Download the latest version of [Eclipse IDE for Java EE Developers](http://www.eclipse.org/downloads/eclipse-packages/)
 1. Unpack it to `C:\Bridge\eclipse`
@@ -46,7 +57,7 @@ ___
 
 1. Open Eclipse and select the `Java EE` Perspective
 1. Select the tab/view `Servers` and hit `Create a new server`
-   1. Under the server's list, select Apache -> Tomcat 9, and *hit next*
+   1. Under the server's list, select `Apache -> Tomcat 9`, and *hit next*
    1. Select the directory `C:\Bridge\apache-tomcat-9.0.8` as the Tomcat directory
    1. Select the directory `C:\Bridge\Java8JDK` as the Java Virtual Machine required
    1. Hit next until finish
