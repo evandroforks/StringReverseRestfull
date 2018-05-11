@@ -194,6 +194,11 @@ http://localhost:8080/StringReverseServlet/
 1. https://stackoverflow.com/questions/3342984/jstl-in-jsf2-facelets-makes-sense
 1. https://www.tutorialspoint.com/jsf/jsf_validation_tags.htm
 1. https://stackoverflow.com/questions/2935759/is-it-possible-to-use-jsffacelets-with-html-4-5
+1. https://docs.oracle.com/javaee/6/javaserverfaces/2.1/docs/vdldocs/facelets/
+1. https://stackoverflow.com/tags/xhtml/info
+1. https://stackoverflow.com/questions/1428418/is-restful-jsf-possible
+1. http://www.universidadejava.com.br/materiais/webservice-rest-jsf/
+1. http://blog.algaworks.com/prettyfaces/
 </p>
 </details><br>
 
