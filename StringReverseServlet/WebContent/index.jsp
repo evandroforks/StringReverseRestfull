@@ -1,4 +1,5 @@
-<html>
+<%@ taglib uri = "http://java.sun.com/jsp/jstl/core" prefix = "c" %>
+<html xmlns:c="http://java.sun.com/jsp/jstl/core">
 <head>
     <title>String Reversing</title>
 </head>
@@ -8,9 +9,9 @@
         &nbsp;&nbsp;
         <input type="submit" value="Reverse it!" />
     </form>
-    <h:outputText rendered="${empty reversedString}">
+    <c:if test="${not empty reversedString}">
         &nbsp;&nbsp;
         Reversed String: ${reversedString}
-    </h:outputText>
+    </c:if>
 </body>
 </html>

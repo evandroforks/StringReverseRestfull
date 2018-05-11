@@ -97,6 +97,7 @@ Opcional steps for admin access on the Tomcat 9 Servlet Container:
 1. https://www.pegaxchange.com/2016/09/02/java-eclipse-tomcat/
 1. https://stackoverflow.com/questions/14854760/not-getting-automatically-web-xml-file-while-creating-servlet-in-eclipse-juno-4
 1. https://tomcat.apache.org/tomcat-9.0-doc/default-servlet.html
+1. https://stackoverflow.com/questions/31248977/eclipse-tomcat-not-updating
 </p>
 </details><br>
 
@@ -136,6 +137,12 @@ http://localhost:8080/StringReverseServlet/
 1. https://stackoverflow.com/questions/4870462/conditionally-displaying-jsf-components
 1. https://stackoverflow.com/questions/33474926/how-not-to-set-an-attribute-of-a-component-inside-a-composite-component-if-it-is
 1. https://www.ntu.edu.sg/home/ehchua/programming/java/JSPByExample.html
+1. https://stackoverflow.com/questions/2095397/what-is-the-difference-between-jsf-servlet-and-jsp
+1. https://en.wikipedia.org/wiki/JavaServer_Pages
+1. http://www.vogella.com/tutorials/JavaServerFaces/article.html
+1. https://stackoverflow.com/tags/jstl/info
+1. https://stackoverflow.com/questions/4901647/whats-the-difference-between-the-various-jstl-libraries-out-there-and-which-to
+1. http://www.javawebtutor.com/articles/jsp/jstl_example_in_eclipse.php
 </p>
 </details><br>
 
