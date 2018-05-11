@@ -147,6 +147,22 @@ http://localhost:8080/StringReverseServlet/
 </details><br>
 
 
+#### Unit Testing references
+<details>
+<p>
+
+1. https://stackoverflow.com/questions/5434419/how-to-test-my-servlet-using-junit
+1. https://stackoverflow.com/questions/5131897/how-to-create-unit-tests-easily-in-eclipse
+1. https://javapapers.com/servlet/why-not-declare-a-constructor-in-servlet/
+1. https://stackoverflow.com/questions/1276082/how-to-initialize-a-servlet-during-startup-with-parameters
+1. https://stackoverflow.com/questions/9164893/how-do-i-add-a-maven-dependency-in-eclipse
+1. https://jar-download.com/?detail_search=g%25253A%252522org.mockito%252522&search_type=1&a=mockito-core
+1. https://stackoverflow.com/questions/9164893/how-do-i-add-a-maven-dependency-in-eclipse
+1. https://examples.javacodegeeks.com/core-java/mockito/mockito-thenreturn-example/
+</p>
+</details><br>
+
+
 ___
 ### Old instructions
 

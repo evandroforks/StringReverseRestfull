@@ -13,5 +13,10 @@
 			<attribute name="owner.project.facets" value="java"/>
 		</attributes>
 	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/5"/>
+	<classpathentry kind="lib" path="mockito-core/byte-buddy-1.8.5.jar"/>
+	<classpathentry kind="lib" path="mockito-core/byte-buddy-agent-1.8.5.jar"/>
+	<classpathentry kind="lib" path="mockito-core/mockito-core-2.18.3.jar"/>
+	<classpathentry kind="lib" path="mockito-core/objenesis-2.6.jar"/>
 	<classpathentry kind="output" path="build/classes"/>
 </classpath>
