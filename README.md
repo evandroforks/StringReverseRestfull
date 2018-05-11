@@ -154,6 +154,10 @@ http://localhost:8080/StringReverseServlet/
 1. https://stackoverflow.com/questions/11941943/pass-input-text-value-to-bean-method-without-binding-input-value-to-bean-propert
 1. https://stackoverflow.com/questions/8631029/calling-bean-methods-with-arguments-from-jsf-pages
 1. https://stackoverflow.com/questions/6594920/calling-methods-from-jsf-page-doubts
+1. https://stackoverflow.com/questions/44254653/the-entity-nbsp-was-referenced-but-not-declared
+1. https://stackoverflow.com/questions/13012327/error-parsing-page-xhtml-error-tracedline-42-the-entity-nbsp-was-referenc/28720699
+1. https://stackoverflow.com/questions/20656297/character-encoding-garbled-characters-in-post-jsf
+1. https://stackoverflow.com/questions/17628354/set-request-character-encoding-of-jsf-input-submitted-values-to-utf-8
 </p>
 </details><br>
 
@@ -187,6 +191,9 @@ http://localhost:8080/StringReverseServlet/
 1. https://www.freelancinggig.com/blog/2018/03/16/difference-jsp-jsf/
 1. https://www.reddit.com/r/java/comments/2jccyc/oracle_keeps_telling_us_that_jsp_is_dead_so_what/
 1. https://docs.oracle.com/javaee/7/tutorial/jsf-facelets.htm
+1. https://stackoverflow.com/questions/3342984/jstl-in-jsf2-facelets-makes-sense
+1. https://www.tutorialspoint.com/jsf/jsf_validation_tags.htm
+1. https://stackoverflow.com/questions/2935759/is-it-possible-to-use-jsffacelets-with-html-4-5
 </p>
 </details><br>
 
