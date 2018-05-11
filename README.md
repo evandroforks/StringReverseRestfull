@@ -98,6 +98,13 @@ Opcional steps for admin access on the Tomcat 9 Servlet Container:
 1. https://stackoverflow.com/questions/14854760/not-getting-automatically-web-xml-file-while-creating-servlet-in-eclipse-juno-4
 1. https://tomcat.apache.org/tomcat-9.0-doc/default-servlet.html
 1. https://stackoverflow.com/questions/31248977/eclipse-tomcat-not-updating
+1. https://stackoverflow.com/questions/11818384/how-to-add-pom-xml-to-existing-eclipse-project
+1. https://stackoverflow.com/questions/10972770/how-to-add-maven-repository-jars-to-eclipse-buildpath
+1. https://stackoverflow.com/questions/8884818/eclipse-warning-xxxxxxxxxxx-jar-will-not-be-exported-or-published-runtime-clas
+1. https://github.com/javaserverfaces/mojarra
+1. https://mvnrepository.com/artifact/org.glassfish/javax.faces
+1. https://stackoverflow.com/questions/42611249/import-javax-enterprise-context-in-eclipse
+1. http://help.eclipse.org/kepler/index.jsp?topic=%2Forg.eclipse.jst.jsf.doc.user%2Fhtml%2Fgettingstarted%2Ftutorial%2FJSFTools_tutorial_JSF20.html
 </p>
 </details><br>
 
@@ -137,12 +144,16 @@ http://localhost:8080/StringReverseServlet/
 1. https://stackoverflow.com/questions/4870462/conditionally-displaying-jsf-components
 1. https://stackoverflow.com/questions/33474926/how-not-to-set-an-attribute-of-a-component-inside-a-composite-component-if-it-is
 1. https://www.ntu.edu.sg/home/ehchua/programming/java/JSPByExample.html
-1. https://stackoverflow.com/questions/2095397/what-is-the-difference-between-jsf-servlet-and-jsp
 1. https://en.wikipedia.org/wiki/JavaServer_Pages
 1. http://www.vogella.com/tutorials/JavaServerFaces/article.html
 1. https://stackoverflow.com/tags/jstl/info
 1. https://stackoverflow.com/questions/4901647/whats-the-difference-between-the-various-jstl-libraries-out-there-and-which-to
 1. http://www.javawebtutor.com/articles/jsp/jstl_example_in_eclipse.php
+1. https://stackoverflow.com/questions/5766521/how-do-you-store-java-objects-in-httpsession
+1. https://www.journaldev.com/1907/java-session-management-servlet-httpsession-url-rewriting
+1. https://stackoverflow.com/questions/11941943/pass-input-text-value-to-bean-method-without-binding-input-value-to-bean-propert
+1. https://stackoverflow.com/questions/8631029/calling-bean-methods-with-arguments-from-jsf-pages
+1. https://stackoverflow.com/questions/6594920/calling-methods-from-jsf-page-doubts
 </p>
 </details><br>
 
@@ -159,6 +170,23 @@ http://localhost:8080/StringReverseServlet/
 1. https://jar-download.com/?detail_search=g%25253A%252522org.mockito%252522&search_type=1&a=mockito-core
 1. https://stackoverflow.com/questions/9164893/how-do-i-add-a-maven-dependency-in-eclipse
 1. https://examples.javacodegeeks.com/core-java/mockito/mockito-thenreturn-example/
+</p>
+</details><br>
+
+
+#### Concept references
+<details>
+<p>
+
+1. https://stackoverflow.com/questions/21947300/reasons-for-not-directly-writing-servlets-for-creating-a-rest-api
+1. https://stackoverflow.com/questions/16035349/how-should-a-doctype-section-look-in-jsf-html5-or-xhtml
+1. https://stackoverflow.com/questions/19189372/javaserver-faces-2-2-and-html5-support-why-is-xhtml-still-being-used
+1. https://stackoverflow.com/questions/13092161/why-facelets-is-preferred-over-jsp-as-the-view-definition-language-from-jsf2-0-o
+1. https://stackoverflow.com/questions/4815722/jsf-vs-facelets-vs-jsp
+1. https://stackoverflow.com/questions/2095397/what-is-the-difference-between-jsf-servlet-and-jsp
+1. https://www.freelancinggig.com/blog/2018/03/16/difference-jsp-jsf/
+1. https://www.reddit.com/r/java/comments/2jccyc/oracle_keeps_telling_us_that_jsp_is_dead_so_what/
+1. https://docs.oracle.com/javaee/7/tutorial/jsf-facelets.htm
 </p>
 </details><br>
 

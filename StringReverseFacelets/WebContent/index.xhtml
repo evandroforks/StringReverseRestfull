@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en"
+    xmlns="http://www.w3.org/1999/xhtml"
+    xmlns:f="http://xmlns.jcp.org/jsf/core"
+    xmlns:h="http://xmlns.jcp.org/jsf/html">
+    <h:head>
+        <title>String Reversing</title>
+    </h:head>
+    <h:body>
+        String to reverse:
+        <h:form>
+            <h:inputText binding="#{inputString}" />
+            <h:commandButton value="Reverse it!" action="#{string_reverse.setInputString(inputString.value)}" />
+        </h:form>
+        #{string_reverse.reversedString}
+    </h:body>
+</html>
