@@ -31,9 +31,9 @@ Os seguintes itens são opcionais e valerão pontos extras no desafio:
 ___
 ## Instructions by Evandro Coan
 
-The used tools were Java 8 as backend runner for the Servlet's.
-And,
-Java Server Faces (.jsf) pages for generating the frontend HTMl pages based on the processed input from the Java 8 backend application.
+The used tools were Java 8 as backend runner for the Servlet's with,
+Java Server Pages (.jsp) and Java Server Faces (.xhtml with facelets) pages for generating
+the frontend HTMl pages based on the processed input from the Java 8 backend application.
 
 The Servlet Container used was Tomcat 9.
 Initially was attempted to use Payara 5,
@@ -41,6 +41,24 @@ however could not be found an out-of-the-box integration with Eclipse or Netbean
 Therefore,
 given the limited time to implement and deploy the application,
 was chosen to stick up with the well know and integrated Apache Tomcat Servlet Container.
+
+There are 3 Eclipse projects included on this repository.
+The ones which are most important are **StringReverseServlet** and **StringReverseFacelets**.
+Both projects should implement the same requirements for this challenge,
+however they use different Java Server technologies.
+
+**StringReverseServlet** Uses the old and well know Java Server Pages technology.
+This was the first implemented project because seemed more easy to do things with it.
+However, after implementing it,
+it seemed too create much boiler plate code.
+Hence,
+**StringReverseFacelets** was implemented seeking a newer,
+simple and more maintainable technology.
+Lastly,
+but not less important,
+**HelloWorldServlet** contains the initial Servlets applications,
+created while installing/setting up the Servlet Container server,
+used on this challenge development.
 
 
 ### Downloads
@@ -114,17 +132,19 @@ Opcional steps for admin access on the Tomcat 9 Servlet Container:
 1. After completing the **Setup** and **Installation** process,
    go to the Eclipse menu `File -> Import...`
 1. Then, type `Projects from Folder or Archive` on the `Select an import wizard` and hit next
-1. On the `Import source` field type the address to this cloned repository project `StringReverseServlet`,
-   for example: `C:\Bridge\desafio-de-desenvolvimento-evandrocoan\StringReverseServlet`
+1. On the `Import source` field type the address to this cloned repository project `StringReverseServlet` and `StringReverseFacelets`,
+   for example:
+   `C:\Bridge\desafio-de-desenvolvimento-evandrocoan\StringReverseServlet` and `C:\Bridge\desafio-de-desenvolvimento-evandrocoan\StringReverseFacelets`
 1. And hit `Finish`
 1. Now on Eclipse Project Explorer tab/view,
-   right click on the imported project `StringReverseServlet` and select `Run As -> Run on Server`
+   one project by time, right click on each imported project and select `Run As -> Run on Server`
 1. Then, select the just created server on the *Tomcat setup on Eclipse* section and hit `Finish`
 
 Now,
-you can access the **StringReverse** application by going on your Web Browser and typing the address:
+you can access the **StringReverse** application by going on your Web Browser and typing the following addresses:
 ```
 http://localhost:8080/StringReverseServlet/
+http://localhost:8080/StringReverseFacelets/
 ```
 
 
