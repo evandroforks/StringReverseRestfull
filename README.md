@@ -72,6 +72,8 @@ Among them, the one which is most important is **StringReverseRestfull**:
 1. Unpack it to `C:\Bridge\eclipse`
 1. Download the JDK 8 from http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html
 1. Unpack it to `C:\Bridge\Java8JDK`
+1. Download and install on the system path NodeJS from https://nodejs.org/en/
+1. Download and install on the system path `rsync` from https://rsync.samba.org/
 
 
 ### Tomcat setup on Eclipse
@@ -128,6 +130,14 @@ Opcional steps for admin access on the Tomcat 9 Servlet Container:
 1. http://help.eclipse.org/kepler/index.jsp?topic=%2Forg.eclipse.jst.jsf.doc.user%2Fhtml%2Fgettingstarted%2Ftutorial%2FJSFTools_tutorial_JSF20.html
 1. https://stackoverflow.com/questions/46750501/what-jersey-version-do-i-need-to-download-for-jdk-1-9
 1. https://howtodoinjava.com/jersey/jersey-2-hello-world-application-tutorial/
+1. https://docs.npmjs.com/files/package.json
+1. https://www.tutorialspoint.com/reactjs/reactjs_environment_setup.htm
+1. https://stackoverflow.com/questions/3131878/how-do-i-remove-javascript-validation-from-my-eclipse-project
+1. https://github.com/facebook/create-react-app
+1. https://docs.npmjs.com/cli/install
+1. https://stackoverflow.com/questions/42772860/how-to-make-create-react-app-auto-build
+1. https://www.npmjs.com/package/cra-build-watch
+1. https://www.fullstackreact.com/articles/using-create-react-app-with-a-server/
 </p>
 </details><br>
 
@@ -148,10 +158,23 @@ Opcional steps for admin access on the Tomcat 9 Servlet Container:
    one project by time, right click on each imported project and select `Run As -> Run on Server`
 1. Then, select the just created server on the *Tomcat setup on Eclipse* section and hit `Finish`
 
+
+#### Building ReactJS files
+
+1. Open a command line on the folder `C:\Bridge\desafio-de-desenvolvimento-evandrocoan\StringReverseRestfull\src-react`
+1. Then, run these commands:
+   ```
+   npm install
+   npm build
+   ```
+1. Optionally,
+   you can run the command `npm start` and a proxy server will start running on the address `http://localhost:3000/`.
+   This server will be forwarding all Rest API calls to the address `http://localhost:8080/StringReverseRestfull/api/`
+
 Now,
 you can access the **StringReverse** application by going on your Web Browser and typing the following addresses:
 ```
-http://localhost:8080/StringReverseRestfull/
+http://localhost:8080/StringReverseRestfull/app/
 http://localhost:8080/StringReverseServlet/
 http://localhost:8080/StringReverseFacelets/
 ```
@@ -188,6 +211,7 @@ http://localhost:8080/StringReverseFacelets/
 1. https://stackoverflow.com/questions/20656297/character-encoding-garbled-characters-in-post-jsf
 1. https://stackoverflow.com/questions/17628354/set-request-character-encoding-of-jsf-input-submitted-values-to-utf-8
 1. https://stackoverflow.com/questions/13594945/how-correctly-produce-json-by-restful-web-service
+1. https://stackoverflow.com/questions/18026296/jersey-how-to-generate-json-and-xml-output-depending-on-url-param
 </p>
 </details><br>
 
