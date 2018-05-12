@@ -28,9 +28,10 @@ public class StringReverse extends HttpServlet {
 
     /**
      * handles HTTP GET request
+     * @throws ServletException
      */
     public void doGet(HttpServletRequest request, HttpServletResponse response)
-            throws IOException {
+            throws IOException, ServletException {
         System.out.println("Someone is calling the Servlet doGet command");
     }
 
@@ -44,11 +45,13 @@ public class StringReverse extends HttpServlet {
 
         String inputString = request.getParameter("inputString");
         String reversedString = new StringBuilder(inputString).reverse().toString();
+        this.reversedStrings.add(reversedString);
+
+        request.setAttribute("reversedString", reversedString);
+        request.getRequestDispatcher("/index.jsp").forward(request, response);
 
         // Will be available as ${reversedStrings} in JSP
-        request.setAttribute("reversedString", reversedString);
         request.setAttribute("reversedStrings", this.reversedStrings);
-
         request.getRequestDispatcher("/index.jsp").forward(request, response);
     }
 

@@ -168,13 +168,17 @@ http://localhost:8080/StringReverseServlet/
 
 1. https://stackoverflow.com/questions/5434419/how-to-test-my-servlet-using-junit
 1. https://stackoverflow.com/questions/5131897/how-to-create-unit-tests-easily-in-eclipse
+1. https://stackoverflow.com/questions/9164893/how-do-i-add-a-maven-dependency-in-eclipse
 1. https://javapapers.com/servlet/why-not-declare-a-constructor-in-servlet/
 1. https://stackoverflow.com/questions/1276082/how-to-initialize-a-servlet-during-startup-with-parameters
-1. https://stackoverflow.com/questions/9164893/how-do-i-add-a-maven-dependency-in-eclipse
 1. https://jar-download.com/?detail_search=g%25253A%252522org.mockito%252522&search_type=1&a=mockito-core
-1. https://stackoverflow.com/questions/9164893/how-do-i-add-a-maven-dependency-in-eclipse
 1. https://examples.javacodegeeks.com/core-java/mockito/mockito-thenreturn-example/
 1. https://stackoverflow.com/questions/1913168/what-are-java-object-fields-initialized-with
+1. https://stackoverflow.com/questions/22357046/error-in-writing-junit-test-case-request-dispatcher
+1. https://stackoverflow.com/questions/6455359/creating-a-mock-httpservletrequest-out-of-a-url-string
+1. https://stackoverflow.com/questions/11721622/how-do-i-pass-the-httpservletrequest-object-to-the-test-case
+1. https://stackoverflow.com/questions/44652424/how-to-mock-httpservletrequest-and-httpservletresponse-objects
+1. https://stackoverflow.com/questions/34542397/how-can-i-use-mockito-to-test-forward-only
 </p>
 </details><br>
 
