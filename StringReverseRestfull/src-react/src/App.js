@@ -34,7 +34,7 @@ class App extends Component {
     //   console.log(reversed_strings[index]);
     // }
     return(
-      <ul>
+      <ol>
           {array_length ?
             reversed_strings.map(function(value, index) {
               console.log(`render() Mapping index ${index} value: ${value}`);
@@ -42,7 +42,7 @@ class App extends Component {
             })
             : <li>There is no reversed string history to show...</li>
           }
-      </ul>
+      </ol>
     )
   }
 }
