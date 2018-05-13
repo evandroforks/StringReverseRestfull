@@ -30,9 +30,9 @@ public class StringReverseService {
 		int stringCount = this.reversedStrings.size() - 1;
 
 		if(stringCount > -1) {
-		    return String.format("{'reversedStrings': ['%s']}", this.reversedStrings.get(stringCount));
+		    return String.format("{\"reversedStrings\": [\"%s\"]}", this.reversedStrings.get(stringCount));
 		}
-		return "{'reversedStrings': ['']}";
+		return "{\"reversedStrings\": [\"\"]}";
 	}
 
 }
