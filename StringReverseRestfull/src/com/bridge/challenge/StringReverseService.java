@@ -23,7 +23,7 @@ public class StringReverseService {
 	@GET
 	@Produces(MediaType.APPLICATION_JSON)
 	public String getReversedStrings(@PathParam("inputString") String inputString) {
-		System.out.println("Someone is calling the getReversedStrings command");
+		System.out.println("Someone is calling the getReversedStrings command with: " + inputString);
 		String reversedString = new StringBuilder(inputString).reverse().toString();
 
         this.reversedStrings.add(reversedString);
