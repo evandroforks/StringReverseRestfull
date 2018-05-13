@@ -220,6 +220,13 @@ http://localhost:8080/StringReverseFacelets/
 1. https://stackoverflow.com/questions/44331581/convert-promise-in-json-object
 1. https://www.quora.com/Is-it-possible-to-consume-a-RESTful-API-with-React-js-alone-i-e-without-any-server-side-language-provided-the-API-if-all-I-want-is-to-consume-JSON-data-and-output-it-rendered-on-my-application
 1. https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise
+1. https://stackoverflow.com/questions/31875158/unable-to-get-property-length-of-undefined-or-null-reference
+1. https://stackoverflow.com/questions/5861536/getting-the-size-of-an-array-in-an-object
+1. https://stackoverflow.com/questions/45969531/get-size-of-array-returned-by-map-in-react-render
+1. https://stackoverflow.com/questions/22876978/loop-inside-react-jsx
+1. https://stackoverflow.com/questions/28320438/react-js-create-loop-through-array
+1. https://stackoverflow.com/questions/610406/javascript-equivalent-to-printf-string-format
+1. https://stackoverflow.com/questions/34786358/what-does-this-error-mean-uncaught-typeerror-already-read
 </p>
 </details><br>
 

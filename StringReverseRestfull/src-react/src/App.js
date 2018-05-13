@@ -19,28 +19,44 @@ class App extends Component {
     ).then(response => {
       if (response.ok) {
         console.log('return response.json(2)')
-        response.json().then(json => {
+        var json_read = response.json()
+        .then(json => {
+          this.setState({items: json})
+          console.log("RESPONSE JSON");
           console.log(json);
+          console.log(this.state);
+          console.log(this.state.items);
         });
         console.log('return response.json()')
-        return response.json();
+        return json_read;
       } else {
         console.log('throw new Error(Something went wrong ...)')
         throw new Error('Something went wrong ...');
       }
     })
-    .then(items=>this.setState({items}))
-    console.log('Contents: ' + this.state.items)
   }
   render() {
-      return(
+    const reversed_strings = this.state.items["reversedStrings"]
+    const array_length = (reversed_strings || []).length
+    console.log("ON RENDER JSON");
+    console.log(this.state);
+    console.log(this.state.items);
+    console.log(this.state.items["reversedStrings"]);
+    console.log("array_length: " + array_length);
+    for (var index = 0; index < array_length; index++) {
+      console.log(reversed_strings[index]);
+    }
+    return(
       <ul>
-          {this.state.items.length ?
-              this.state.items.map(item=><li key={item.id}>{item.body}</li>)
+          {array_length ?
+            reversed_strings.map(function(value, index) {
+              console.log(`Mapping index ${index} value ${value}`);
+              return <li key={index}>{value}</li>
+            })
             : <li>Loading...</li>
           }
       </ul>
-   )
+    )
   }
 }
 
