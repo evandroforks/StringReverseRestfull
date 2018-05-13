@@ -215,6 +215,11 @@ http://localhost:8080/StringReverseFacelets/
 1. https://stackoverflow.com/questions/296873/basic-html-how-to-set-relative-path-to-current-folder
 1. https://www.sitepoint.com/getting-started-react-beginners-guide/
 1. https://www.robinwieruch.de/react-fetching-data/
+1. https://jsonlint.com/
+1. https://stackoverflow.com/questions/36840396/react-fetch-gives-an-empty-response-body
+1. https://stackoverflow.com/questions/44331581/convert-promise-in-json-object
+1. https://www.quora.com/Is-it-possible-to-consume-a-RESTful-API-with-React-js-alone-i-e-without-any-server-side-language-provided-the-API-if-all-I-want-is-to-consume-JSON-data-and-output-it-rendered-on-my-application
+1. https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise
 </p>
 </details><br>
 
