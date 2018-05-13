@@ -212,6 +212,9 @@ http://localhost:8080/StringReverseFacelets/
 1. https://stackoverflow.com/questions/17628354/set-request-character-encoding-of-jsf-input-submitted-values-to-utf-8
 1. https://stackoverflow.com/questions/13594945/how-correctly-produce-json-by-restful-web-service
 1. https://stackoverflow.com/questions/18026296/jersey-how-to-generate-json-and-xml-output-depending-on-url-param
+1. https://stackoverflow.com/questions/296873/basic-html-how-to-set-relative-path-to-current-folder
+1. https://www.sitepoint.com/getting-started-react-beginners-guide/
+1. https://www.robinwieruch.de/react-fetching-data/
 </p>
 </details><br>
 
