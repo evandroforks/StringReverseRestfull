@@ -8,7 +8,7 @@ class StringHistory extends Component {
   constructor(props) {
       super(props);
       this.state={responseJson:[]};
-      console.log('I was triggered during StringHistory constructor: ' + this.props.inputString)
+      console.log('I was triggered during StringHistory constructor')
   }
 
   componentDidMount() {
@@ -21,37 +21,31 @@ class StringHistory extends Component {
    * unprefixed. See the issue #5 "CORS (Cross-Origin Resource Sharing)".
    */
   callStringReverseApi() {
-    var inputString = this.props.inputString
+    var base_api = window.location.href
+    var regex = /app\/$/g;
+    base_api = base_api.replace(regex, '');
 
-    if(inputString.length){
-      var base_api = window.location.href
-      var regex = /app\/$/g;
-      base_api = base_api.replace(regex, '');
+    console.log('I was triggered during callStringReverseApi: ' + base_api)
+    fetch(base_api + 'api/appendstring/', {
+        method: 'GET',
+        headers: {
+          Accept: 'application/json',
+      },
+    }).then(response => {
 
-      console.log('I was triggered during callStringReverseApi: ' + base_api + inputString)
-      fetch(base_api + 'api/appendstring/' + inputString, {
-          method: 'GET',
-          headers: {
-            Accept: 'application/json',
-        },
-      }).then(response => {
-
-        if (response.ok) {
-          return response.json()
-            .then(json => {
-              this.setState({responseJson: json})
-            })
-        } else {
-          throw new Error('Something went wrong ...');
-        }
-      })
-    } else {
-      console.log('I was triggered during callStringReverseApi with no input')
-    }
+      if (response.ok) {
+        return response.json()
+          .then(json => {
+            this.setState({responseJson: json})
+          })
+      } else {
+        throw new Error('Something went wrong ...');
+      }
+    })
   }
 
   render() {
-    console.log('I was triggered during StringHistory render(): ' + this.props.inputString)
+    console.log('I was triggered during StringHistory render()')
     const reversed_strings = this.state.responseJson["reversedStrings"]
     const array_length = (reversed_strings || []).length
     // for (var index = 0; index < array_length; index++) {

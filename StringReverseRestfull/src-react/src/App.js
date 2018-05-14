@@ -20,7 +20,7 @@ class App extends Component {
     return(
       <div>
         <StringInput onInputSubmit={this.handleInputSubmit} />
-        <StringHistory inputString={this.state.inputString} key={this.state.inputString} />
+        <StringHistory key={this.state.inputString} />
       </div>
     )
   }

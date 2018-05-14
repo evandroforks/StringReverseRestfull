@@ -22,6 +22,28 @@ class StringInput extends Component {
     // alert('A name was submitted: ' + this.state.value);
     event.preventDefault();
     this.props.onInputSubmit(this.state.value);
+    this.sendStringToServer(this.state.value);
+  }
+
+  sendStringToServer(inputString) {
+    var base_api = window.location.href
+    var regex = /app\/$/g;
+    base_api = base_api.replace(regex, '');
+
+    console.log('I was triggered during callStringReverseApi: ' + base_api + inputString)
+    fetch(base_api + 'api/appendstring/' + inputString, {
+        method: 'GET',
+        headers: {
+          Accept: 'application/json',
+      },
+    }).then(response => {
+
+      if (response.ok) {
+        console.log('Server response OK!')
+      } else {
+        throw new Error('Something went wrong ...');
+      }
+    })
   }
 
   render() {

@@ -254,6 +254,7 @@ http://localhost:8080/StringReverseFacelets/
 1. https://stackoverflow.com/questions/13514570/jackson-best-way-writes-a-java-list-to-a-json-array
 1. https://stackoverflow.com/questions/39823681/read-the-current-full-url-with-react
 1. https://stackoverflow.com/questions/35380077/if-text-begins-or-ends-with-these-characters-remove-characters
+1. https://stackoverflow.com/questions/909185/jersey-security-and-session-management
 </p>
 </details><br>
 
