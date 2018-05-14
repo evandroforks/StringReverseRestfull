@@ -42,23 +42,26 @@ Therefore,
 given the limited time to implement and deploy the application,
 was chosen to stick up with the well know and integrated Apache Tomcat Servlet Container.
 
-There are 3 Eclipse projects included on this repository.
-The ones which are most important are **StringReverseServlet** and **StringReverseFacelets**.
-Both projects should implement the same requirements for this challenge,
-however they use different Java Server technologies.
+There are 4 Eclipse projects included on this repository.
+Among them, the one which is most important is **StringReverseRestfull**:
 
-**StringReverseServlet** Uses the old and well know Java Server Pages technology.
-This was the first implemented project because seemed more easy to do things with it.
-However, after implementing it,
-it seemed too create much boiler plate code.
-Hence,
-**StringReverseFacelets** was implemented seeking a newer,
-simple and more maintainable technology.
-Lastly,
-but not less important,
-**HelloWorldServlet** contains the initial Servlets applications,
-created while installing/setting up the Servlet Container server,
-used on this challenge development.
+1. **StringReverseRestfull** this one was the last implemented,
+   after learning better about Java Server technologies.
+   For running it,
+   was chosen Jersey because seemed to better integrate with the current Servlet Container Apache Tomcat 9.
+   Jersey was chosen because it is one of the implementations of JAX-RS Specification for Java Restful Web Services.
+1. **StringReverseServlet** Uses the old and well know Java Server Pages technology.
+   This was the first implemented project because seemed more easy to do things with it.
+   However, after implementing it,
+   it seemed too create much boiler plate code.
+   Hence,
+1. **StringReverseFacelets** was implemented seeking a newer,
+   simple and more maintainable technology.
+   Lastly,
+   but not less important,
+1. **HelloWorldServlet** contains the initial Servlets applications,
+   created while installing/setting up the Servlet Container server,
+   used on this challenge development.
 
 
 ### Downloads
@@ -69,6 +72,8 @@ used on this challenge development.
 1. Unpack it to `C:\Bridge\eclipse`
 1. Download the JDK 8 from http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html
 1. Unpack it to `C:\Bridge\Java8JDK`
+1. Download and install on the system path NodeJS from https://nodejs.org/en/
+1. Download and install on the system path `rsync` from https://rsync.samba.org/
 
 
 ### Tomcat setup on Eclipse
@@ -123,6 +128,16 @@ Opcional steps for admin access on the Tomcat 9 Servlet Container:
 1. https://mvnrepository.com/artifact/org.glassfish/javax.faces
 1. https://stackoverflow.com/questions/42611249/import-javax-enterprise-context-in-eclipse
 1. http://help.eclipse.org/kepler/index.jsp?topic=%2Forg.eclipse.jst.jsf.doc.user%2Fhtml%2Fgettingstarted%2Ftutorial%2FJSFTools_tutorial_JSF20.html
+1. https://stackoverflow.com/questions/46750501/what-jersey-version-do-i-need-to-download-for-jdk-1-9
+1. https://howtodoinjava.com/jersey/jersey-2-hello-world-application-tutorial/
+1. https://docs.npmjs.com/files/package.json
+1. https://www.tutorialspoint.com/reactjs/reactjs_environment_setup.htm
+1. https://stackoverflow.com/questions/3131878/how-do-i-remove-javascript-validation-from-my-eclipse-project
+1. https://github.com/facebook/create-react-app
+1. https://docs.npmjs.com/cli/install
+1. https://stackoverflow.com/questions/42772860/how-to-make-create-react-app-auto-build
+1. https://www.npmjs.com/package/cra-build-watch
+1. https://www.fullstackreact.com/articles/using-create-react-app-with-a-server/
 </p>
 </details><br>
 
@@ -132,17 +147,34 @@ Opcional steps for admin access on the Tomcat 9 Servlet Container:
 1. After completing the **Setup** and **Installation** process,
    go to the Eclipse menu `File -> Import...`
 1. Then, type `Projects from Folder or Archive` on the `Select an import wizard` and hit next
-1. On the `Import source` field type the address to this cloned repository project `StringReverseServlet` and `StringReverseFacelets`,
-   for example:
-   `C:\Bridge\desafio-de-desenvolvimento-evandrocoan\StringReverseServlet` and `C:\Bridge\desafio-de-desenvolvimento-evandrocoan\StringReverseFacelets`
+1. On the `Import source` field type the address to this cloned repository project directory, for example,
+   `C:\Bridge\desafio-de-desenvolvimento-evandrocoan`
+   1. And then select the three created projects to import:
+      1. `StringReverseServlet`,
+      1. `StringReverseFacelets` and
+      1. `StringReverseRestfull`
 1. And hit `Finish`
 1. Now on Eclipse Project Explorer tab/view,
    one project by time, right click on each imported project and select `Run As -> Run on Server`
 1. Then, select the just created server on the *Tomcat setup on Eclipse* section and hit `Finish`
 
+
+#### Building ReactJS files
+
+1. Open a command line on the folder `C:\Bridge\desafio-de-desenvolvimento-evandrocoan\StringReverseRestfull\src-react`
+1. Then, run these commands:
+   ```
+   npm install
+   npm build
+   ```
+1. Optionally,
+   you can run the command `npm start` and a proxy server will start running on the address `http://localhost:3000/`.
+   This server will be forwarding all Rest API calls to the address `http://localhost:8080/StringReverseRestfull/api/`
+
 Now,
 you can access the **StringReverse** application by going on your Web Browser and typing the following addresses:
 ```
+http://localhost:8080/StringReverseRestfull/app/
 http://localhost:8080/StringReverseServlet/
 http://localhost:8080/StringReverseFacelets/
 ```
@@ -178,6 +210,51 @@ http://localhost:8080/StringReverseFacelets/
 1. https://stackoverflow.com/questions/13012327/error-parsing-page-xhtml-error-tracedline-42-the-entity-nbsp-was-referenc/28720699
 1. https://stackoverflow.com/questions/20656297/character-encoding-garbled-characters-in-post-jsf
 1. https://stackoverflow.com/questions/17628354/set-request-character-encoding-of-jsf-input-submitted-values-to-utf-8
+1. https://stackoverflow.com/questions/13594945/how-correctly-produce-json-by-restful-web-service
+1. https://stackoverflow.com/questions/18026296/jersey-how-to-generate-json-and-xml-output-depending-on-url-param
+1. https://stackoverflow.com/questions/296873/basic-html-how-to-set-relative-path-to-current-folder
+1. https://www.sitepoint.com/getting-started-react-beginners-guide/
+1. https://www.robinwieruch.de/react-fetching-data/
+1. https://jsonlint.com/
+1. https://stackoverflow.com/questions/36840396/react-fetch-gives-an-empty-response-body
+1. https://stackoverflow.com/questions/44331581/convert-promise-in-json-object
+1. https://www.quora.com/Is-it-possible-to-consume-a-RESTful-API-with-React-js-alone-i-e-without-any-server-side-language-provided-the-API-if-all-I-want-is-to-consume-JSON-data-and-output-it-rendered-on-my-application
+1. https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise
+1. https://stackoverflow.com/questions/31875158/unable-to-get-property-length-of-undefined-or-null-reference
+1. https://stackoverflow.com/questions/5861536/getting-the-size-of-an-array-in-an-object
+1. https://stackoverflow.com/questions/45969531/get-size-of-array-returned-by-map-in-react-render
+1. https://stackoverflow.com/questions/22876978/loop-inside-react-jsx
+1. https://stackoverflow.com/questions/28320438/react-js-create-loop-through-array
+1. https://stackoverflow.com/questions/610406/javascript-equivalent-to-printf-string-format
+1. https://stackoverflow.com/questions/34786358/what-does-this-error-mean-uncaught-typeerror-already-read
+1. https://stackoverflow.com/questions/33645243/how-do-i-merge-two-components-in-react
+1. https://github.com/goatslacker/alt/issues/283
+1. https://stackoverflow.com/questions/40109698/react-call-parent-method-in-child-component
+1. https://reactjs.org/docs/components-and-props.html#es6-classes
+1. https://daveceddia.com/avoid-bind-when-passing-props/
+1. https://medium.com/@js_tut/react-js-props-tutorial-a3aceb69999c
+1. https://stackoverflow.com/questions/27991366/what-is-the-difference-between-state-and-props-in-react
+1. https://stackoverflow.com/questions/34012830/passing-parameters-to-components-in-react-native
+1. https://reactjs.org/docs/forms.html
+1. https://www.sitepoint.com/work-with-forms-in-react/
+1. https://stackoverflow.com/questions/36683770/react-how-to-get-the-value-of-an-input-field
+1. https://stackoverflow.com/questions/41618192/react-force-componentdidmount
+1. https://engineering.musefind.com/react-lifecycle-methods-how-and-when-to-use-them-2111a1b692b1
+1. https://stackoverflow.com/questions/32814970/is-componentdidmount-of-parent-called-after-all-componentdidmount-of-children
+1. https://reactjs.org/docs/react-component.html#shouldcomponentupdate
+1. https://stackoverflow.com/questions/49128558/how-to-re-render-child-component-on-state-changeparent-reactjs
+1. https://stackoverflow.com/questions/39041710/react-js-change-child-components-state-from-parent-component
+1. https://stackoverflow.com/questions/37923035/how-to-reload-a-component-in-reacts-on-url-parameter-change
+1. https://stackoverflow.com/questions/29074690/react-why-components-constructor-is-called-only-once
+1. https://mxstbr.blog/2017/02/react-children-deepdive/
+1. https://stackoverflow.com/questions/44851056/react-component-not-re-rendering-on-setstate
+1. https://stackoverflow.com/questions/20851533/react-js-wrapping-one-component-into-another
+1. https://developmentarc.gitbooks.io/react-indepth/content/life_cycle/birth/post_mount_with_component_did_mount.html
+1. https://stackoverflow.com/questions/1187868/how-can-i-exclude-some-folders-from-my-eclipse-project
+1. https://stackoverflow.com/questions/13514570/jackson-best-way-writes-a-java-list-to-a-json-array
+1. https://stackoverflow.com/questions/39823681/read-the-current-full-url-with-react
+1. https://stackoverflow.com/questions/35380077/if-text-begins-or-ends-with-these-characters-remove-characters
+1. https://stackoverflow.com/questions/909185/jersey-security-and-session-management
 </p>
 </details><br>
 
@@ -224,6 +301,26 @@ http://localhost:8080/StringReverseFacelets/
 1. https://stackoverflow.com/questions/1428418/is-restful-jsf-possible
 1. http://www.universidadejava.com.br/materiais/webservice-rest-jsf/
 1. http://blog.algaworks.com/prettyfaces/
+1. https://en.wikipedia.org/wiki/Java_API_for_RESTful_Web_Services
+1. http://www.vogella.com/tutorials/REST/article.html
+1. https://www.tutorialspoint.com/restful/restful_quick_guide.htm
+1. https://stormpath.com/blog/jax-rs-vs-spring-rest-endpoints
+1. http://www.totalcross.com/blog/angularjs-consumindo-uma-api-restful-com-java/
+1. https://dzone.com/articles/why-you-should-avoid-jsf
+1. https://www.quora.com/How-can-I-use-React-JS-with-JSF
+1. https://stackoverflow.com/questions/9943445/what-do-i-need-to-create-a-restful-api-server-in-java
+1. https://docs.spring.io/spring/docs/3.0.0.M3/spring-framework-reference/html/ch18s02.html
+1. https://stackoverflow.com/questions/42944777/difference-between-jax-rs-and-spring-rest
+1. https://stackoverflow.com/questions/9508478/rest-using-jax-rs-or-spring-mvc
+1. https://dzone.com/articles/7-reasons-i-do-not-use-jax-rs-in-spring-boot-web-a
+1. https://www.quora.com/What-is-difference-between-spring-MVC-and-spring-boot
+1. https://docs.spring.io/spring-boot/docs/current/reference/html/howto-traditional-deployment.html
+1. https://crunchify.com/simplest-spring-mvc-hello-world-example-tutorial-spring-model-view-controller-tips/
+1. https://stackoverflow.com/questions/29416804/creating-spring-rest-services-without-using-spring-boot
+1. https://stackoverflow.com/questions/20442632/create-restful-web-service-with-jax-rs-and-deploy-it-to-tomcat
+1. https://stackoverflow.com/questions/43373733/restful-java-with-jax-rs-2-and-tomcat-9
+1. https://jersey.github.io/documentation/latest/getting-started.html
+1. https://crunchify.com/how-to-build-restful-service-with-java-using-jax-rs-and-jersey/
 </p>
 </details><br>
 
