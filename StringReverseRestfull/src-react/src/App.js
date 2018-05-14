@@ -20,6 +20,7 @@ class App extends Component {
     return(
       <div>
         <StringInput serverApiAddress={this.baseServerApi} onInputSubmit={this.handleInputSubmit} />
+        <h5>Reversed Strings History</h5>
         <StringHistory serverApiAddress={this.baseServerApi} key={this.state.inputString} />
       </div>
     )

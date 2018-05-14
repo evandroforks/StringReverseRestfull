@@ -47,7 +47,7 @@ public class StringReverseService {
         System.out.println("Someone is calling the getReversedStrings command with: " + inputString);
 
         String reversedString = new StringBuilder(inputString).reverse().toString();
-        this.reversedStrings.add(reversedString);
+        this.reversedStrings.add(0, reversedString);
     }
 
     private String convertListToJson(String listName, List<String> stringList)
