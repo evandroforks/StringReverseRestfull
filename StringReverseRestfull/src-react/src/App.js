@@ -11,18 +11,35 @@ class App extends Component {
   constructor(props) {
     super(props);
     this.state = {inputString: ''};
+    this.baseServerApi = this.getServerApiAddress();
     this.handleInputSubmit = this.handleInputSubmit.bind(this)
-    console.log('window.location.href : ' + window.location.href)
   }
 
   render() {
     console.log('I was triggered during App render: ' + this.state.inputString)
     return(
       <div>
-        <StringInput onInputSubmit={this.handleInputSubmit} />
-        <StringHistory key={this.state.inputString} />
+        <StringInput serverApiAddress={this.baseServerApi} onInputSubmit={this.handleInputSubmit} />
+        <StringHistory serverApiAddress={this.baseServerApi} key={this.state.inputString} />
       </div>
     )
+  }
+
+  /**
+   * We call the string reverse API, assuming the API is available on the base URL address as
+   * "http://localhost:8080/api".
+   *
+   * Exceptionally, if the base URL ends with app/, it will be unprefixed. See the issue #5 "CORS
+   * (Cross-Origin Resource Sharing)".
+   */
+  getServerApiAddress() {
+    var base_api = window.location.href
+    var regex = /app\/$/g;
+    base_api = base_api.replace(regex, '') + 'api/appendstring/';
+
+    console.log('window.location.href : ' + window.location.href)
+    console.log('I was triggered during getServerApiAddress: ' + base_api);
+    return base_api;
   }
 
   handleInputSubmit(newName) {

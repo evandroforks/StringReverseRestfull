@@ -15,18 +15,9 @@ class StringHistory extends Component {
     this.callStringReverseApi()
   }
 
-  /**
-   * Call the string reverse API excepting it the API is available on the base URL address as
-   * "http://localhost:8080/api". Exceptionally, if the base URL ends with app/, it will be
-   * unprefixed. See the issue #5 "CORS (Cross-Origin Resource Sharing)".
-   */
   callStringReverseApi() {
-    var base_api = window.location.href
-    var regex = /app\/$/g;
-    base_api = base_api.replace(regex, '');
 
-    console.log('I was triggered during callStringReverseApi: ' + base_api)
-    fetch(base_api + 'api/appendstring/', {
+    fetch(this.props.serverApiAddress, {
         method: 'GET',
         headers: {
           Accept: 'application/json',

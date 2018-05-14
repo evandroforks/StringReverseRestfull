@@ -26,12 +26,7 @@ class StringInput extends Component {
   }
 
   sendStringToServer(inputString) {
-    var base_api = window.location.href
-    var regex = /app\/$/g;
-    base_api = base_api.replace(regex, '');
-
-    console.log('I was triggered during callStringReverseApi: ' + base_api + inputString)
-    fetch(base_api + 'api/appendstring/' + inputString, {
+    fetch(this.props.serverApiAddress + inputString, {
         method: 'GET',
         headers: {
           Accept: 'application/json',
