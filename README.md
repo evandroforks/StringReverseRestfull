@@ -227,6 +227,29 @@ http://localhost:8080/StringReverseFacelets/
 1. https://stackoverflow.com/questions/28320438/react-js-create-loop-through-array
 1. https://stackoverflow.com/questions/610406/javascript-equivalent-to-printf-string-format
 1. https://stackoverflow.com/questions/34786358/what-does-this-error-mean-uncaught-typeerror-already-read
+1. https://stackoverflow.com/questions/33645243/how-do-i-merge-two-components-in-react
+1. https://github.com/goatslacker/alt/issues/283
+1. https://stackoverflow.com/questions/40109698/react-call-parent-method-in-child-component
+1. https://reactjs.org/docs/components-and-props.html#es6-classes
+1. https://daveceddia.com/avoid-bind-when-passing-props/
+1. https://medium.com/@js_tut/react-js-props-tutorial-a3aceb69999c
+1. https://stackoverflow.com/questions/27991366/what-is-the-difference-between-state-and-props-in-react
+1. https://stackoverflow.com/questions/34012830/passing-parameters-to-components-in-react-native
+1. https://reactjs.org/docs/forms.html
+1. https://www.sitepoint.com/work-with-forms-in-react/
+1. https://stackoverflow.com/questions/36683770/react-how-to-get-the-value-of-an-input-field
+1. https://stackoverflow.com/questions/41618192/react-force-componentdidmount
+1. https://engineering.musefind.com/react-lifecycle-methods-how-and-when-to-use-them-2111a1b692b1
+1. https://stackoverflow.com/questions/32814970/is-componentdidmount-of-parent-called-after-all-componentdidmount-of-children
+1. https://reactjs.org/docs/react-component.html#shouldcomponentupdate
+1. https://stackoverflow.com/questions/49128558/how-to-re-render-child-component-on-state-changeparent-reactjs
+1. https://stackoverflow.com/questions/39041710/react-js-change-child-components-state-from-parent-component
+1. https://stackoverflow.com/questions/37923035/how-to-reload-a-component-in-reacts-on-url-parameter-change
+1. https://stackoverflow.com/questions/29074690/react-why-components-constructor-is-called-only-once
+1. https://mxstbr.blog/2017/02/react-children-deepdive/
+1. https://stackoverflow.com/questions/44851056/react-component-not-re-rendering-on-setstate
+1. https://stackoverflow.com/questions/20851533/react-js-wrapping-one-component-into-another
+1. https://developmentarc.gitbooks.io/react-indepth/content/life_cycle/birth/post_mount_with_component_did_mount.html
 </p>
 </details><br>
 
