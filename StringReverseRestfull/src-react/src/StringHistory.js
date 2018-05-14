@@ -56,7 +56,7 @@ class StringHistory extends Component {
               console.log(`render() Mapping index ${index} value: ${value}`);
               return <li key={index}>{value}</li>
             })
-            : <li>There is no reversed string history to show...</li>
+            :<b></b>
           }
       </ol>
     )
