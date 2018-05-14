@@ -250,6 +250,8 @@ http://localhost:8080/StringReverseFacelets/
 1. https://stackoverflow.com/questions/44851056/react-component-not-re-rendering-on-setstate
 1. https://stackoverflow.com/questions/20851533/react-js-wrapping-one-component-into-another
 1. https://developmentarc.gitbooks.io/react-indepth/content/life_cycle/birth/post_mount_with_component_did_mount.html
+1. https://stackoverflow.com/questions/1187868/how-can-i-exclude-some-folders-from-my-eclipse-project
+1. https://stackoverflow.com/questions/13514570/jackson-best-way-writes-a-java-list-to-a-json-array
 </p>
 </details><br>
 
