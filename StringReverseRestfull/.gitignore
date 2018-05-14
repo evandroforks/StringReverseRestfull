@@ -1,5 +1,5 @@
 
 
-bin
-WebContent/app
-
+bin/
+WebContent/app/
+target/
