@@ -12,6 +12,7 @@ class App extends Component {
     super(props);
     this.state = {inputString: ''};
     this.handleInputSubmit = this.handleInputSubmit.bind(this)
+    console.log('window.location.href : ' + window.location.href)
   }
 
   render() {

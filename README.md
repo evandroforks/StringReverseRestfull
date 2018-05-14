@@ -252,6 +252,8 @@ http://localhost:8080/StringReverseFacelets/
 1. https://developmentarc.gitbooks.io/react-indepth/content/life_cycle/birth/post_mount_with_component_did_mount.html
 1. https://stackoverflow.com/questions/1187868/how-can-i-exclude-some-folders-from-my-eclipse-project
 1. https://stackoverflow.com/questions/13514570/jackson-best-way-writes-a-java-list-to-a-json-array
+1. https://stackoverflow.com/questions/39823681/read-the-current-full-url-with-react
+1. https://stackoverflow.com/questions/35380077/if-text-begins-or-ends-with-these-characters-remove-characters
 </p>
 </details><br>
 
