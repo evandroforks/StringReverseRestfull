@@ -164,11 +164,11 @@ Opcional steps for admin access on the Tomcat 9 Servlet Container:
 1. Open a command line on the folder `C:\Bridge\desafio-de-desenvolvimento-evandrocoan\StringReverseRestfull\src-react`
 1. Then, run these commands:
    ```
-   npm install
-   npm build
+   npm run install
+   npm run build
    ```
 1. Optionally,
-   you can run the command `npm start` and a proxy server will start running on the address `http://localhost:3000/`.
+   you can run the command `npm run start` and a proxy server will start running on the address `http://localhost:3000/`.
    This server will be forwarding all Rest API calls to the address `http://localhost:8080/StringReverseRestfull/api/`
 
 Now,
