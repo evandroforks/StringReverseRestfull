@@ -72,8 +72,9 @@ Among them, the one which is most important is **StringReverseRestfull**:
 1. Unpack it to `C:\Bridge\eclipse`
 1. Download the JDK 8 from http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html
 1. Unpack it to `C:\Bridge\Java8JDK`
-1. Download and install on the system path NodeJS from https://nodejs.org/en/
+1. Download and install on the system path `NodeJS` from https://nodejs.org/en/
 1. Download and install on the system path `rsync` from https://rsync.samba.org/
+1. Download and install on the system path `create-react-app` from https://github.com/facebook/create-react-app
 
 
 ### Tomcat setup on Eclipse
@@ -90,7 +91,7 @@ Among them, the one which is most important is **StringReverseRestfull**:
    1. On the opened page, select `Use Tomcat installation (takes control of Tomcat installation)` under `Server Locations`
    1. Press `Ctrl+S` to save the changes and close the page
 
-Opcional steps for admin access on the Tomcat 9 Servlet Container:
+Optional steps for admin access on the Tomcat 9 Servlet Container:
 1. On the Eclipse Project Explorer tab/view, select the `Tomcat 9.0 Server at localhost-config`
    1. Select and open the file `tomcat-users.xml` as plain text and add the following contents
       ```
