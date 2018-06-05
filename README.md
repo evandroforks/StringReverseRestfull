@@ -1,31 +1,31 @@
-# Desafio de desenvolvimento
+# Development challenge
 
-Desenvolva uma aplicação web que permita ao usuário inserir um texto qualquer e que o sistema retorne o inverso dessa string.
+Develop a web application that allows the user to enter any text and that the system returns the inverse of that string.
 
-Exemplo: ao inserir o texto `"bridge"`, o sistema retorna na tela a resposta `"egdirb"`.
+Example: When entering ``bridge``text, the system returns the ``egdirb`` response on the screen.
 
-A operação de inversão de string deve ser **obrigatoriamente** executada no backend da aplicação.
+The string inversion operation must be **mandatory** executed on the application backend.
 
-## Requisitos técnicos
+## Technical requirements
 
-* Utilize Java 8 para o backend
-* Utilize a tecnologia de sua preferência para o frontend
-* Monte o design da aplicação de acordo com sua preferência
-* Utilize Git para versionamento de seu código
+* Use Java 8 for the backend
+* Use the technology of your choice for the frontend
+* Assemble the design of the application according to your preference
+* Use Git to version your code
 
 ## Extras
 
-Os seguintes itens são opcionais e valerão pontos extras no desafio:
+The following items are optional and will be worth extra points in the challenge:
 
-* Apresente na tela o histórico de todas as strings previamente enviadas pelo usuário
-* Utilize uma API REST de comunicação entre o backend e o frontend da aplicação
-* Utilize testes unitários
-* Utilize React, Angular ou Vue no frontend da aplicação
+* Display on the screen the history of all the strings previously sent by the user
+* Use a REST API for communication between the backend and the application frontend
+* Use unit tests
+* Use React, Angular or Vue on the application frontend
 
-## Instruções de envio
+## Shipping Instructions
 
-* Inclua no arquivo `README.md` as instruções para execução e uma breve descrição das tecnologias utilizadas, junto com seu nome completo.
-* Serão aceitos somentes commits feitos até o dia **13/05 às 23h59**.
+* In the `README.md` file include the instructions for execution and a brief description of the technologies used, along with their full name.
+* Only commits made until the day **13/05 at 11:59** will be accepted.
 
 
 ___
