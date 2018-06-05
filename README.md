@@ -2,9 +2,9 @@
 
 Develop a web application that allows the user to enter any text and that the system returns the inverse of that string.
 
-Example: When entering `` bridge '`text, the system returns the` `egdirb" `response on the screen.
+Example: When entering ``bridge``text, the system returns the ``egdirb`` response on the screen.
 
-The string inversion operation must be ** mandatory ** executed on the application backend.
+The string inversion operation must be **mandatory** executed on the application backend.
 
 ## Technical requirements
 
@@ -25,7 +25,7 @@ The following items are optional and will be worth extra points in the challenge
 ## Shipping Instructions
 
 * In the `README.md` file include the instructions for execution and a brief description of the technologies used, along with their full name.
-* Only commits made until the day ** 13/05 at 11:59 ** will be accepted.
+* Only commits made until the day **13/05 at 11:59** will be accepted.
 
 
 ___
